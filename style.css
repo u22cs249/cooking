@@ -1,0 +1,18 @@
+/* style.css */
+body { font-family: 'Segoe UI', sans-serif; background: #f4f7f6; color: #333; }
+.container { max-width: 800px; margin: 50px auto; padding: 20px; }
+
+.input-group { display: flex; gap: 10px; margin-bottom: 30px; }
+input { flex: 2; padding: 12px; border: 1px solid #ddd; border-radius: 8px; }
+select { flex: 1; padding: 12px; border-radius: 8px; }
+button { padding: 12px 24px; background: #27ae60; color: white; border: none; border-radius: 8px; cursor: pointer; }
+
+.recipe-card { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 12px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+}
+.badge { font-size: 0.8em; background: #e8f5e9; color: #2e7d32; padding: 4px 8px; border-radius: 4px; float: right; }
+.diet-tag { display: inline-block; margin-top: 10px; font-size: 0.7em; text-transform: uppercase; letter-spacing: 1px; color: #777; }
