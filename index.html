@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RecipeRecommender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🍳 RecipeRecommender</h1>
+        <p>Enter the ingredients in your kitchen (comma-separated):</p>
+        
+        <div class="input-group">
+            <input type="text" id="ingredientInput" placeholder="e.g. tomato, pasta, garlic">
+            <select id="dietFilter">
+                <option value="all">All Diets</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="vegan">Vegan</option>
+            </select>
+            <button onclick="findRecipes()">Find Recipes</button>
+        </div>
+
+        <div id="results" class="results-grid">
+            </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
